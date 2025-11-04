@@ -1,6 +1,6 @@
 {
   local this = self,
-  filteringSelector: 'job="integrations/gitlab"',
+  filteringSelector: 'job="gitlab-gitlab-exporter"',
   groupLabels: ['job', 'cluster'],
   logLabels: ['job', 'cluster', 'instance'],
   instanceLabels: ['instance'],
